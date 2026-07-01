@@ -25,7 +25,7 @@ export const handleGetMakeComBlocks = async ({
   });
   if (!typebot)
     throw new ORPCError("NOT_FOUND", {
-      message: "Typebot not found",
+      message: "Lead bot not found",
     });
   const groups = parseGroups(typebot?.groups, {
     typebotVersion: typebot?.version,

@@ -60,12 +60,12 @@ export const BillingCycleResetFailedEmail = ({
             access to your workspace.
           </Text>
 
-          <Button href="mailto:support@typebot.io" style={primaryButton}>
+          <Button href="mailto:support@shadyy.local" style={primaryButton}>
             Contact support
           </Button>
 
           <Hr style={hr} />
-          <Text style={footerText}>Typebot - Build faster, Chat smarter</Text>
+          <Text style={footerText}>Leads - Copyright Shadyy</Text>
         </Container>
       </Body>
     </Html>

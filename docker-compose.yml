@@ -47,13 +47,21 @@ services:
     <<: *typebot-common
     image: baptistearno/typebot-builder:latest
     ports:
-      - "8080:3000"
+      - "8082:3000"
 
   typebot-viewer:
     <<: *typebot-common
     image: baptistearno/typebot-viewer:latest
     ports:
       - "8081:3000"
+
+  typebot-mailpit:
+    image: axllent/mailpit:latest
+    restart: always
+    ports:
+      - "8027:8025"
+    networks:
+      - typebot-network
 
 networks:
   typebot-network:

@@ -32,9 +32,8 @@ export const Hero = () => (
         </span>
       </h1>
       <p className="text-center text-foreground/60 font-normal text-balance md:text-xl max-w-3xl animate-in fade-in slide-in-from-bottom-10 blur-in-sm fill-mode-both delay-3000 duration-600">
-        Typebot is a no-code platform that enables you to effortlessly create
-        and integrate advanced chatbots into websites and chat platforms like
-        WhatsApp.
+        Leads is a no-code platform that helps you create and integrate lead
+        capture conversations into websites and chat platforms like WhatsApp.
       </p>
 
       <CtaButtonLink

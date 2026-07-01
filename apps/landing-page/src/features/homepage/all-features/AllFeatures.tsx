@@ -36,12 +36,12 @@ const cards = [
     Icon: UsersIcon,
     title: "Team collaboration",
     description:
-      "Sharing is caring: invite your teammates to work on your typebots with you",
+      "Sharing is caring: invite your teammates to work on your lead bots with you",
     rotateCoeff: 12,
   },
   {
     Icon: Link02Icon,
-    title: "Link to sub typebots",
+    title: "Link to sub lead bots",
     description:
       "For the in-depth analytics lovers who want to see flow with drop-off rate etc.",
     rotateCoeff: -7,
@@ -55,7 +55,7 @@ const cards = [
   {
     Icon: ZapIcon,
     title: "Custom domain",
-    description: "Connect your typebot to the custom URL of your choice",
+    description: "Connect your lead bot to the custom URL of your choice",
     rotateCoeff: 2,
   },
   {

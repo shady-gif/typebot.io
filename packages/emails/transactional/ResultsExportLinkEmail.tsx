@@ -29,7 +29,7 @@ export const ResultsExportLinkEmail = ({ typebotName, fileUrl }: Props) => {
             You can download it <a href={fileUrl}>here</a>.
           </Text>
           <Hr style={hr} />
-          <Text style={footerText}>Typebot - Build faster, Chat smarter</Text>
+          <Text style={footerText}>Leads - Copyright Shadyy</Text>
         </Container>
       </Body>
     </Html>
@@ -37,8 +37,8 @@ export const ResultsExportLinkEmail = ({ typebotName, fileUrl }: Props) => {
 };
 
 ResultsExportLinkEmail.PreviewProps = {
-  typebotName: "My Typebot",
-  fileUrl: "https://typebot.io/results.csv",
+  typebotName: "My lead bot",
+  fileUrl: "https://shadyy.local/results.csv",
 } as Props;
 
 export default ResultsExportLinkEmail;

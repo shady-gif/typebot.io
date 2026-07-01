@@ -18,11 +18,7 @@ export const ErrorPage = ({ error }: { error: Error }) => {
             NEXT_PUBLIC_VIEWER_URL is missing
           </h1>
           <h2>
-            Make sure to configure the app properly (
-            <a href="https://docs.typebot.com/self-hosting/configuration">
-              https://docs.typebot.com/self-hosting/configuration
-            </a>
-            )
+            Make sure to configure the Leads viewer app properly.
           </h2>
         </>
       ) : (

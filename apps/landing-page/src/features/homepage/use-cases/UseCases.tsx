@@ -19,7 +19,7 @@ const useCases = [
     images: {
       builder: {
         src: marketingBuilderSrc,
-        alt: "An example of a marketing bot being built in Typebot",
+        alt: "An example of a marketing bot being built in Leads",
       },
       bot: {
         src: marketingBotSrc,
@@ -32,7 +32,7 @@ const useCases = [
     images: {
       builder: {
         src: supportAndProductBuilderSrc,
-        alt: "An example of a support bot being built in Typebot",
+        alt: "An example of a support bot being built in Leads",
       },
       bot: {
         src: supportAndProductBotSrc,
@@ -45,7 +45,7 @@ const useCases = [
     images: {
       builder: {
         src: salesBuilderSrc,
-        alt: "An example of a sales bot being built in Typebot",
+        alt: "An example of a sales bot being built in Leads",
       },
       bot: {
         src: salesBotSrc,

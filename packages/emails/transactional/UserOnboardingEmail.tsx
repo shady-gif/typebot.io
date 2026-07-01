@@ -22,7 +22,7 @@ interface Props {
 export const UserOnboardingEmail = ({ unsubscribeUrl }: Props) => (
   <Html>
     <Head />
-    <Preview>Welcome to Typebot!</Preview>
+    <Preview>Welcome to Leads!</Preview>
     <Body style={main}>
       <Container
         align="left"
@@ -37,16 +37,15 @@ export const UserOnboardingEmail = ({ unsubscribeUrl }: Props) => (
           Hi,
           <br />
           <br />
-          Thanks for trying out Typebot! I&apos;m Baptiste, the founder. 🙌
+          Thanks for trying out Leads.
           <br />
           <br />
-          I&apos;ve created Typebot because I think it should be easy to create
-          beautiful and engaging chat experiences.
+          Leads is built to make it easy to create beautiful, engaging lead
+          capture conversations.
           <br />
           <br />
-          Typebot has been designed to give you all the freedom you need to
-          create the perfect bots for your business while still being super easy
-          to use.
+          It gives you the freedom to create the right bots for your business
+          while keeping the builder simple to use.
           <br />
           <br />
           Watch this quick 5-minute overview video to get started:
@@ -56,18 +55,10 @@ export const UserOnboardingEmail = ({ unsubscribeUrl }: Props) => (
           </Link>
           <br />
           <br />
-          Join our community on Discord to connect with others and get instant
-          help:
-          <br />
-          <Link href="https://typebot.io/discord">
-            https://typebot.io/discord
-          </Link>
-          <br />
-          <br />
           See you soon!
           <br />
           <br />
-          Baptiste.
+          Shadyy.
         </Text>
         <Hr />
         {unsubscribeUrl ? (
@@ -81,7 +72,7 @@ export const UserOnboardingEmail = ({ unsubscribeUrl }: Props) => (
 );
 
 UserOnboardingEmail.PreviewProps = {
-  unsubscribeUrl: "https://typebot.io/emails/unsubscribe",
+  unsubscribeUrl: "https://shadyy.local/emails/unsubscribe",
 } satisfies Props;
 
 export default UserOnboardingEmail;

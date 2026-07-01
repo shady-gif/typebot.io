@@ -68,7 +68,7 @@ export const BillingCycleResetEmail = ({
           </Button>
 
           <Hr style={hr} />
-          <Text style={footerText}>Typebot - Build faster, Chat smarter</Text>
+          <Text style={footerText}>Leads - Copyright Shadyy</Text>
         </Container>
       </Body>
     </Html>
@@ -78,7 +78,7 @@ export const BillingCycleResetEmail = ({
 BillingCycleResetEmail.PreviewProps = {
   workspaceName: "My Workspace",
   totalChatsUsed: 15000,
-  url: "https://typebot.io",
+  url: "https://shadyy.local",
 } as Props;
 
 export default BillingCycleResetEmail;

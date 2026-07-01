@@ -45,11 +45,11 @@ export const GuestInvitationEmail = ({
         <Container style={container}>
           <Logo />
           <Text style={paragraph}>
-            You have been invited by {hostEmail} to collaborate on his typebot{" "}
+            You have been invited by {hostEmail} to collaborate on his lead bot{" "}
             <strong>{typebotName}</strong>.
             <br />
             <br />
-            From now on you will see this typebot in your dashboard under his
+            From now on you will see this lead bot in your dashboard under his
             workspace &quot;{workspaceName}&quot; 👍
             <br />
             <br />
@@ -57,11 +57,11 @@ export const GuestInvitationEmail = ({
           </Text>
 
           <Button href={url} style={primaryButton}>
-            Go to typebot
+            Go to lead bot
           </Button>
 
           <Hr style={hr} />
-          <Text style={footerText}>Typebot - Build faster, Chat smarter</Text>
+          <Text style={footerText}>Leads - Copyright Shadyy</Text>
         </Container>
       </Body>
     </Html>
@@ -70,10 +70,10 @@ export const GuestInvitationEmail = ({
 
 GuestInvitationEmail.PreviewProps = {
   workspaceName: "My Workspace",
-  typebotName: "My Typebot",
-  url: "https://typebot.io",
-  hostEmail: "host@typebot.io",
-  guestEmail: "guest@typebot.io",
+  typebotName: "My lead bot",
+  url: "https://shadyy.local",
+  hostEmail: "host@shadyy.local",
+  guestEmail: "guest@shadyy.local",
 } as Props;
 
 export default GuestInvitationEmail;

@@ -7,12 +7,12 @@ void React;
 export const Logo = () => (
   <Img
     src={`${env.NEXTAUTH_URL}/images/logo.png`}
-    width="32"
-    height="32"
-    alt="Typebot's Logo"
+    width="140"
+    height="53"
+    alt="Leads by Shadyy"
     style={{
       margin: "24px 0",
-      borderRadius: "3px",
+      objectFit: "contain",
     }}
   />
 );

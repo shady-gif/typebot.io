@@ -53,7 +53,7 @@ export const getServerSideProps: GetServerSideProps = async (
       // Early return, will just show a root page
       return {
         props: {
-          dashboardUrl: `${env.NEXTAUTH_URL ?? "https://app.typebot.com"}/typebots`,
+          dashboardUrl: `${env.NEXTAUTH_URL ?? "https://shadyy.local"}/typebots`,
         },
       };
     }
@@ -285,7 +285,7 @@ const App = ({
             ? new Error(
                 "This bot is outdated. Please contact the administrator.",
               )
-            : new Error("The typebot was not found")
+            : new Error("The lead bot was not found")
         }
       />
     );

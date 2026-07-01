@@ -21,7 +21,7 @@ export default function NotFound() {
           alignItems: "center",
         }}
       >
-        <a href="https://typebot.io" style={{ color: "inherit" }}>
+        <a href="/" style={{ color: "inherit" }}>
           <TypebotLogo style={{ fontSize: "32px" }} />
         </a>
 

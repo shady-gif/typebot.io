@@ -73,9 +73,9 @@ const handler = new OpenAPIHandler(appRouter, {
           title: "Builder API",
           version: "1.0.0",
         },
-        servers: [{ url: "https://app.typebot.com/api" }],
+        servers: [{ url: "https://shadyy.local/api" }],
         externalDocs: {
-          url: "https://docs.typebot.com/api-reference",
+          url: "https://shadyy.local/docs/api-reference",
         },
         components: {
           securitySchemes: {
@@ -87,8 +87,8 @@ const handler = new OpenAPIHandler(appRouter, {
         },
         commonSchemas: {
           ...convertSchemasListToCommonSchemas(typebotSchema),
-          "Public Typebot V5": { schema: publicTypebotSchemaV5 },
-          "Public Typebot V6": { schema: publicTypebotSchemaV6 },
+          "Public Lead Bot V5": { schema: publicTypebotSchemaV5 },
+          "Public Lead Bot V6": { schema: publicTypebotSchemaV6 },
         },
       },
     }),

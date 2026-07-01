@@ -53,7 +53,7 @@ export const handleGetPublishedTypebot = async ({
     !existingTypebot?.id ||
     (await isReadTypebotForbidden(existingTypebot, user))
   )
-    throw new ORPCError("NOT_FOUND", { message: "Typebot not found" });
+    throw new ORPCError("NOT_FOUND", { message: "Lead bot not found" });
 
   if (!existingTypebot.publishedTypebot)
     return {

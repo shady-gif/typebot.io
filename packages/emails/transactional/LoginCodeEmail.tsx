@@ -35,11 +35,11 @@ interface Props {
 export const LoginCodeEmail = ({ url, code }: Props) => (
   <Html>
     <Head />
-    <Preview>Your login code for Typebot</Preview>
+    <Preview>Your login code for Leads</Preview>
     <Body style={main}>
       <Container style={container}>
         <Logo />
-        <Heading style={heading}>Your login code for Typebot</Heading>
+        <Heading style={heading}>Your login code for Leads</Heading>
         <code style={codeStyle}>{code}</code>
         <Text style={paragraph}>
           This code will only be valid for the next 5 minutes.
@@ -48,14 +48,14 @@ export const LoginCodeEmail = ({ url, code }: Props) => (
           You can also sign in by <Link href={url}>clicking here</Link>.
         </Text>
         <Hr style={hr} />
-        <Text style={footerText}>Typebot - Build faster, Chat smarter</Text>
+        <Text style={footerText}>Leads - Copyright Shadyy</Text>
       </Container>
     </Body>
   </Html>
 );
 
 LoginCodeEmail.PreviewProps = {
-  url: "https://typebot.io",
+  url: "https://shadyy.local",
   code: "654778",
 } as Props;
 
@@ -67,6 +67,6 @@ export const sendLoginCodeEmail = async ({
 }: Pick<SendMailOptions, "to"> & ComponentProps<typeof LoginCodeEmail>) =>
   sendEmail({
     to,
-    subject: "Sign in to Typebot",
+    subject: "Sign in to Leads",
     html: await render(<LoginCodeEmail {...props} />),
   });

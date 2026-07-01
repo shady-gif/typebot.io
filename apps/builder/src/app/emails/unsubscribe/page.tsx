@@ -11,7 +11,7 @@ type PageProps = {
 export const metadata: Metadata = {
   title: "Email preferences",
   icons: {
-    icon: "/favicon.svg",
+    icon: "/images/shadyy-leads-logo.png",
   },
 };
 

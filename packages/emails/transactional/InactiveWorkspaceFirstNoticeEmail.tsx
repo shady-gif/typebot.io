@@ -35,13 +35,13 @@ export const InactiveWorkspaceFirstNoticeEmail = ({
         <Logo />
         <Text style={paragraph}>
           It's been at least 60+ days since <strong>{workspaceName}</strong>{" "}
-          workspace has been inactive. Meaning you did not log in or your
-          typebots did not get any traffic in the last 60 days. <br />
+          workspace has been inactive. Meaning you did not log in or your lead
+          bots did not get any traffic in the last 60 days. <br />
           <br />
           <strong>
             We’ve automatically scheduled it for deletion in 30 days.
           </strong>{" "}
-          All its typebots and collected results will be permanently deleted.
+          All its lead bots and collected results will be permanently deleted.
         </Text>
         <Text>
           You are receiving this email because you are an admin of that
@@ -52,17 +52,17 @@ export const InactiveWorkspaceFirstNoticeEmail = ({
           <Link
             href={`${env.NEXTAUTH_URL}/typebots?redirectPath=${encodeURIComponent(`/w/${workspaceId}/typebots`)}`}
           >
-            log in to your Typebot account
+            log in to your Leads account
           </Link>{" "}
           and it will be marked as active again.
         </Text>
         <Text style={paragraph}>
-          This can be a good opportunity to re-explore Typebot! A lot of new
+          This can be a good opportunity to re-explore Leads. A lot of new
           features have been added since you last logged in including new
           blocks, more AI integrations and a ton of other improvements.
         </Text>
         <Hr style={hr} />
-        <Text style={footerText}>Typebot - Build faster, Chat smarter</Text>
+        <Text style={footerText}>Leads - Copyright Shadyy</Text>
         <Link
           href="{{unsubscribe}}"
           target="_blank"
@@ -88,6 +88,6 @@ export const sendInactiveWorkspaceFirstNoticeEmail = async ({
   ComponentProps<typeof InactiveWorkspaceFirstNoticeEmail>) =>
   sendEmail({
     to,
-    subject: `Your '${props.workspaceName}' workspace in Typebot is inactive and will be deleted soon`,
+    subject: `Your '${props.workspaceName}' workspace in Leads is inactive and will be deleted soon`,
     html: await render(<InactiveWorkspaceFirstNoticeEmail {...props} />),
   });

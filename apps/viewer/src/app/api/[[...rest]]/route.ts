@@ -73,9 +73,9 @@ const handler = new OpenAPIHandler(appRouter, {
           title: "Chat API",
           version: "3.0.0",
         },
-        servers: [{ url: "https://typebot.io/api" }],
+        servers: [{ url: "https://shadyy.local/api" }],
         externalDocs: {
-          url: "https://docs.typebot.com/api-reference",
+          url: "https://shadyy.local/docs/api-reference",
         },
         components: {
           securitySchemes: {

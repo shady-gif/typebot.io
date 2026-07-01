@@ -58,7 +58,7 @@ export const WorkspaceMemberInvitationEmail = ({
           </Button>
 
           <Hr style={hr} />
-          <Text style={footerText}>Typebot - Build faster, Chat smarter</Text>
+          <Text style={footerText}>Leads - Copyright Shadyy</Text>
         </Container>
       </Body>
     </Html>
@@ -67,9 +67,9 @@ export const WorkspaceMemberInvitationEmail = ({
 
 WorkspaceMemberInvitationEmail.PreviewProps = {
   workspaceName: "My Workspace",
-  url: "https://typebot.io",
-  hostEmail: "host@typebot.io",
-  guestEmail: "guest@typebot.io",
+  url: "https://shadyy.local",
+  hostEmail: "host@shadyy.local",
+  guestEmail: "guest@shadyy.local",
 } as Props;
 
 export default WorkspaceMemberInvitationEmail;
