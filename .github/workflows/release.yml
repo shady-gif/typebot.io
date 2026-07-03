@@ -1,6 +1,7 @@
 name: Release new Typebot version
 
 on:
+  workflow_dispatch:
   push:
     tags: ["v*", "next", "shadyy-v*"]
 
